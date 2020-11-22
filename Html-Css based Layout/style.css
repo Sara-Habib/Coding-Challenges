@@ -1,0 +1,161 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #f4f1f1;
+}
+div#container {
+    width: 1024px;
+    margin: 30px auto;
+}
+
+div {
+    display: block;
+}
+
+header {
+    display: block;
+}
+
+.quoteOfTheDay {
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: baseline;
+    width: 300px;
+}
+
+.name {
+    width: 720px;
+    display: inline-block;
+    vertical-align: baseline;
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+article {
+    padding: 35px 0px;
+}
+
+.quote h1 {
+    font-size: 66px;
+    line-height: 100%;
+    margin: 0px;
+}
+
+.quoteby h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 19px;
+}
+
+.skills {
+    width: 280px;
+    display: inline-block;
+    vertical-align: top;
+}
+.skills h6 {
+    font-size: 22px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.skills ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.skills ul li {
+    list-style: none;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.profile {
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.profile p {
+    font-size: 19px;
+    padding-right: 27px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.profileImage {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+img.mobileImg{
+    width:130px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom:10px;
+    display: none;
+}
+
+
+@media only screen and (max-width:1087px){
+    div#container{
+        width: 310px;
+    }
+    .quoteOfTheDay {
+        width: 100%;
+        font-size: 20px;
+    }
+    .name {
+        width: 100%;
+        text-align: left;
+        font-size: 25px;
+    }
+
+    .quote h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    
+    .quoteby h4 {
+      font-size: 25px;
+      margin-top: 15px;
+    }
+    article {
+        padding: 30px 0px;
+    }
+    
+    .skills{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .profile{
+        width: 100%;
+        /* vertical-align: top;
+        margin-top: 27px; */
+
+    }
+    
+.profileImage {
+    display: none;
+}
+.profile p {
+    font-size: 17px;
+    padding-right: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+img.mobileImg{
+    display: block;
+    width:130px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom:10px;
+}
+
+
+}
